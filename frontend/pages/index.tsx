@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import Link from "next/link";

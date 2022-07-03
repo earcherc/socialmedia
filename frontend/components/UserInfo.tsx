@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 
 const useUser = () =>
-  useSelector((state) => ({
+  useSelector((state: any) => ({
     character: state.character,
     error: state.error,
     isFetchedOnServer: state.isFetchedOnServer,
@@ -47,21 +47,6 @@ function UserInfo() {
         (was user fetched on server? - <b>{isFetchedOnServer.toString()})</b>
       </p>
       <p> Please note there are no more than 10 users in the API!</p>
-      <style jsx>
-        {`
-          article {
-            background-color: #528ce0;
-            border-radius: 15px;
-            padding: 15px;
-            width: 250px;
-            margin: 15px 0;
-            color: white;
-          }
-          button {
-            margin-right: 10px;
-          }
-        `}
-      </style>
     </div>
   );
 }

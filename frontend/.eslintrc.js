@@ -17,6 +17,7 @@ module.exports = {
     "react/jsx-filename-extension": [2, { extensions: [".js", ".jsx", ".ts", ".tsx"] }],
     "react/react-in-jsx-scope": 0,
     "import/extensions": 0,
+    "react/no-unescaped-entities": 0,
   },
   settings: {
     "import/resolver": {
