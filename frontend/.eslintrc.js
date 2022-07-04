@@ -18,6 +18,11 @@ module.exports = {
     "react/react-in-jsx-scope": 0,
     "import/extensions": 0,
     "react/no-unescaped-entities": 0,
+    "default-param-last": 0,
+    "no-unused-vars": 0,
+    "no-undef": 0,
+    "no-underscore-dangle": 0,
+    "no-shadow": 0,
   },
   settings: {
     "import/resolver": {

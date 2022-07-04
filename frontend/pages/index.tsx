@@ -1,20 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useEffect } from "react";
-import { useDispatch } from "react-redux";
 import Link from "next/link";
 import UserInfo from "../components/UserInfo";
-import { stopFetchingUsers, startFetchingUsers } from "../store/actions";
 
 function Counter() {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(startFetchingUsers());
-    return () => {
-      dispatch(stopFetchingUsers());
-    };
-  }, [dispatch]);
-
   return (
     <div>
       <h1>Index Page</h1>
