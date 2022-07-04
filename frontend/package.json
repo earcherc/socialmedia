@@ -12,6 +12,10 @@
     "test-all": "yarn run check-format && yarn run check-lint && yarn run check-types && yarn run build"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.5",
+    "@heroicons/react": "^1.0.6",
+    "@tailwindcss/forms": "^0.5.2",
+    "autoprefixer": "^10.4.7",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -20,6 +24,7 @@
     "redux-logger": "3.0.6",
     "redux-observable": "1.2.0",
     "rxjs": "6.5.5",
+    "tailwindcss": "^3.1.4",
     "universal-rxjs-ajax": "2.0.4"
   },
   "devDependencies": {
