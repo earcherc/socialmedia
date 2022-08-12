@@ -1,0 +1,15 @@
+# VirtualEnv
+venv*
+flask/
+
+__pycache__
+
+# Env vars
+.envrc
+*.env
+.DS_Store
+
+# VSCode files
+**/.vscode/*
+
+.cache

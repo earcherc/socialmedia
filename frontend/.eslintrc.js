@@ -24,6 +24,7 @@ module.exports = {
     "no-underscore-dangle": 0,
     "no-shadow": 0,
     "react/function-component-definition": 0,
+    "import/prefer-default-export": 0,
   },
   settings: {
     "import/resolver": {

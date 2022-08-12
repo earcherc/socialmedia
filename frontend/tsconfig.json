@@ -18,9 +18,9 @@
     "sourceMap": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false, // Look into
     "jsx": "preserve",
-    "typeRoots": ["./node_modules/@types", "./types/main.d.ts"],
+    "typeRoots": ["./node_modules/@types"],
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strictNullChecks": true,
