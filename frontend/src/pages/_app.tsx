@@ -6,11 +6,11 @@ import { AppProps } from "next/app";
 import "../styles/globals.css";
 
 export default function App({ Component, pageProps }: AppProps) {
-  // const store = useStore(pageProps.initialReduxState);
+	// const store = useStore(pageProps.initialReduxState);
 
-  return (
-    // <Provider store={store}>
-    <Component {...pageProps} />
-    // </Provider>
-  );
+	return (
+		// <Provider store={store}>
+		<Component {...pageProps} />
+		// </Provider>
+	);
 }
