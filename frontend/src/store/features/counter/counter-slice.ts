@@ -50,7 +50,7 @@ export const counterDecrementEpic = (
 ) =>
 	action$.pipe(
 		filter(counterSlice.actions.decrement.match),
-		delay(500),
+		delay(2000),
 		map(() => counterSlice.actions.increment())
 	);
 
